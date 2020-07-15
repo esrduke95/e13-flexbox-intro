@@ -3,19 +3,22 @@
     padding: 0;
 }
 body {
-    background-color: crimson;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
+/*Navigation*/
 .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: tomato;
 }
 .logo {
     background-color: tomato;
     padding: 1em;
     text-transform: lowercase;
     font-size: xx-large;
+    font-family: 'Shrikhand', cursive;
 }
 .logo a {
     color: turquoise;
@@ -24,6 +27,8 @@ ul {
     list-style: none;
     text-transform: lowercase;
     display: flex;
+    font-family: 'Shrikhand', cursive;
+
 }
 .logo a,
 ul a {
@@ -31,7 +36,51 @@ ul a {
     padding: 1em;
     text-decoration: none;
     letter-spacing: .5em;
+    color: white;
+    
 }
 ul a:hover {
-    background-color: tomato;
+    background-color: crimson;
+}
+/*Navigation end*/
+/**************dogs*************/
+.dogs {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.dogs img {
+    height: 375px;
+    margin: 25px;
+    box-shadow: 10px 5px 5px tomato;
+}
+.cats {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.cats img {
+    height: 375px;
+    margin: 25px;
+    box-shadow: 10px 5px 5px tomato;
+}
+h1 {
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Shrikhand', cursive;
+}
+h2 {
+    font-size: x-large;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Shrikhand', cursive;
+}
+.titleWrapper {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+
 }
