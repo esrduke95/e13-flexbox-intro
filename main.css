@@ -1,4 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: crimson;
     color: white;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    background-color: tomato;
+    padding: 1em;
+    text-transform: lowercase;
+    font-size: xx-large;
+}
+.logo a {
+    color: turquoise;
+}
+ul {
+    list-style: none;
+    text-transform: lowercase;
+    display: flex;
+}
+.logo a,
+ul a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    letter-spacing: .5em;
+}
+ul a:hover {
+    background-color: tomato;
 }
